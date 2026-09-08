@@ -1,5 +1,7 @@
 # Early Trend Radar
 
+**Live application:** [https://trend-detection.vercel.app/](https://trend-detection.vercel.app/)
+
 ## Overview
 
 Early Trend Radar is a TypeScript/Next.js take-home assignment that replays 48 hours of normalized social-media activity from X, Instagram, and TikTok. It detects and ranks **candidate** emerging trends using explainable, time-aware evidence. An alert is a detector result to review, not confirmation of a real-world trend.
@@ -106,7 +108,7 @@ Alerts also include detector-provided post-type analysis: post count, unique aut
 
 ## Dashboard
 
-The Next.js App Router dashboard is available at `/` and reads `output/alerts.json`. It provides:
+The Next.js App Router dashboard is available at `/` and reads `output/alerts.json`. The deployed dashboard is available at [trend-detection.vercel.app](https://trend-detection.vercel.app/). It provides:
 
 - Overview metrics: total alerts, high-confidence alerts, represented platforms, and strongest signal.
 - A confidence-and-time-sorted emerging-trends list.
